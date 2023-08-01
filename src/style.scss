@@ -4,6 +4,8 @@
 /*  Import all of Bootstrap's CSS */
 @import "~bootstrap/scss/bootstrap";
 
+@import "./scss/board";
+
 /* IF WATCH SASS IS RUN THEN WEBPACK WILL HAVE ISSUES */
 /* @import "../node_modules/bulma/css/bulma.min.css"; */
 /*  @import "~bulma/bulma"; */

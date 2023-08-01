@@ -11,6 +11,15 @@
     "no-console": "off",
     "no-undef": "off",
     "no-unused-vars": "off",
-    "no-else-return": 0
+    "no-else-return": 0,
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": false,
+        "variables": false,
+        "allowNamedExports": false
+      }
+    ]
   }
 }

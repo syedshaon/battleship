@@ -1,0 +1,20 @@
+#player1-board,
+#player2-board,
+#enemy-board {
+  grid-template-columns: repeat(11, 40px);
+  grid-template-rows: repeat(11, 40px);
+  display: grid;
+  gap: 1px;
+}
+.p1 {
+  border: 1px solid black;
+}
+
+.player-board2-container {
+  display: none;
+}
+
+.all-board {
+  display: flex;
+  justify-content: space-evenly;
+}
