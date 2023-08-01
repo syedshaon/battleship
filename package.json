@@ -1,0 +1,68 @@
+{
+  "name": "webpack_template_repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "server": "node server.js",
+    "startDock": "webpack serve --progress --port 8080",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Mashiur",
+  "license": "ISC",
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
+  "stylelint": {
+    "extends": "stylelint-config-recommended"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/runtime": "^7.21.0",
+    "airbnb-browser-shims": "^3.3.0",
+    "astroturf": "^1.2.0",
+    "autoprefixer": "^10.4.14",
+    "babel-jest": "^29.6.2",
+    "babel-loader": "^9.1.2",
+    "babel-preset-airbnb": "^5.0.0",
+    "browserslist": "^4.21.5",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "postcss-loader": "^7.3.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "source-map-loader": "^4.0.1",
+    "stylelint": "^15.3.0",
+    "stylelint-config-recommended": "^12.0.0",
+    "stylelint-webpack-plugin": "^4.1.0",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-middleware": "^6.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.0",
+    "bulma": "^0.9.4",
+    "date-fns": "^2.30.0",
+    "html-webpack-plugin": "^5.5.1",
+    "jest": "^29.6.2",
+    "normalize.css": "^8.0.1",
+    "reset-css": "^5.0.1",
+    "style-loader": "^3.3.2",
+    "uuid": "^9.0.0"
+  }
+}

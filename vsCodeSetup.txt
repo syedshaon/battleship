@@ -1,0 +1,110 @@
+# code --list-extensions
+# List of all extensions
+
+azemoh.one-monokai
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+DigitalBrainstem.javascript-ejs-support
+esbenp.prettier-vscode
+file-icons.file-icons
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+glenn2223.live-sass
+hex-ci.stylelint-plus
+ms-vscode-remote.remote-containers
+ms-vscode.live-server
+naumovs.color-highlight
+pranaygp.vscode-css-peek
+ritwickdey.LiveServer
+rodrigovallades.es7-react-js-snippets
+sidthesloth.html5-boilerplate
+syler.sass-indented
+xabikos.JavaScriptSnippets
+
+# VS code settings.json
+
+{
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": true,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.autoIndent": "full",
+  "scssFormatter.useTabs": true,
+  "scssFormatter.tabWidth": 4,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "editor.wordWrap": "on",
+  "workbench.sideBar.location": "right",
+  "explorer.confirmDelete": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "indenticator.hover.peekBlockPlaceholder": "......",
+  "editor.wrappingIndent": "deepIndent",
+  "workbench.tree.indent": 15,
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.snippetSuggestions": "top",
+  "workbench.colorTheme": "One Monokai",
+  "extensions.ignoreRecommendations": false,
+  "editor.guides.indentation": false,
+  "workbench.iconTheme": "file-icons",
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.guides.bracketPairs": true,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "none",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.openRepositoryInParentFolders": "never",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.printWidth": 800,
+  "eslint.validate": ["javascript"],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "my-PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": ["-NoLogo"]
+    }
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
+}

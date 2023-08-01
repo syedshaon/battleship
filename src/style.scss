@@ -1,0 +1,20 @@
+/* @import "../node_modules/reset-css/sass/reset"; */
+/* Custom CSS and variables to override Bootstrap goes to variables */
+@import "./scss/variables";
+/*  Import all of Bootstrap's CSS */
+@import "~bootstrap/scss/bootstrap";
+
+/* IF WATCH SASS IS RUN THEN WEBPACK WILL HAVE ISSUES */
+/* @import "../node_modules/bulma/css/bulma.min.css"; */
+/*  @import "~bulma/bulma"; */
+
+/* Importing ends here */
+
+@font-face {
+  font-family: RobotoRegular, Arial, Helvetica, sans-serif;
+  src: "url(./fonts/Roboto-Regular.ttf)";
+}
+
+body {
+  font-family: RobotoRegular, sans-serif;
+}
